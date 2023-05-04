@@ -1,5 +1,5 @@
 # SocketProgramming
-### Environment
+## Environment
 ```shell
 $ uname -a
 ```
@@ -16,4 +16,8 @@ OFFLOAD_TARGET_DEFAULT=1
 Target: x86_64-linux-gnu
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
-gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04) 
+gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04)
+
+### Problem1
+- Client에서 보낸 문자열을 Server에서 문자열의 각 문자들을 ASCII Code로 변환하여 Client 화면에 출력
+- 실행 결과
