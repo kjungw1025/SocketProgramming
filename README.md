@@ -29,3 +29,19 @@ gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04)
 - recvbuf 크기가 맨 처음에 보낸 문자열의 길이와 같아진다면 recv 중지함
 - 실행 결과
 <img src="https://user-images.githubusercontent.com/120318020/236194509-4bb6bacb-24ae-452b-9f1b-2ef84a9c37cb.PNG">
+
+## Problem2-2
+``` shell
+문제 : Client가 보내는 계산식을 Server에서 계산하여 Client 화면에 출력
+```
+- Client가 작성한 Infix order 형식의 계산식을 Postfix order로 변환하여 컴퓨터에서 계산하기 쉽게끔 구성 (ex. 2+3+4 --> 23+4+)
+- Postfix order로 변환한 계산식을 Stack에 넣어 계산 진행
+- 계산 방법
+``` shell
+1.  Postfix expression을 왼쪽부터 오른쪽으로 스캔하면서 operand를 stack에 push
+2.  operator를 만나면, 필요한 operand 만큼 stack으로부터 operand를 가져오는 pop 연산 수행
+3.  pop한 operand에 대해 계산을 수행한 후, 결과를 다시 stack에 push
+4.  이 과정을 Postfix expression을 모두 스캔할 때까지 1 ~ 3번을 반복하고, 마지막 stack의 top에 있는 값이 계산식의 결과 값
+```
+- 실행 결과
+<img src="https://user-images.githubusercontent.com/120318020/236652797-aa346b60-6a4b-40eb-9c24-273b636293f8.PNG">
