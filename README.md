@@ -45,3 +45,17 @@ gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04)
 ```
 - 실행 결과
 <img src="https://user-images.githubusercontent.com/120318020/236652797-aa346b60-6a4b-40eb-9c24-273b636293f8.PNG">
+
+## Problem3
+``` shell
+문제 : 간단한 DNS 서버를 구현하기
+Server는 아래와 같은 구조의 테이블을 구성하고
+	Domain | IP
+	amazon   123.133.12.45
+Client에서 아래와 같은 입력을 했을 때, 서버에서 결과 값을 return
+	'D: www.naver.com'  -> DB에서 Domain에 해당하는 IP 주소를 받아, 서버에서 IP주소 return
+	'I: 123.456.789.123' -> DB에서 IP에서 해당하는 Domain을 받아, 서버에서 Domain return
+	'W: www.naver.com 123.456.789.123' -> DB에 등록
+```
+- createdb.cpp를 통해 C++에서 Mysql에 접속하고 problem3라는 이름의 데이터베이스 생성 및 DNS라는 이름의 테이블 생성
+- 생성한 DNS 테이블에 초기 세팅 값들을 넣어줌
