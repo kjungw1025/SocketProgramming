@@ -27,26 +27,9 @@ int main()
     getline(cin, buf);
 
     buf_size[0] = buf.size();
-    send(cs, buf_size, sizeof(buf_size), 0);
+    send(cs, buf_size, sizeof(buf_size), 0); // server에, client가 입력한 문자열의 길이를 우선적으로 전송
 
-    if (buf.length() / 1024 > 0) {
-        int quotient = buf.length() / 1024;
-        int remainder = buf.length() % 1024;
-
-        string tmp;
-        int start_idx, end_idx;
-        for (int i = 0; i < quotient; i++) {
-            start_idx = 1024 * i;
-            end_idx = 1024 * (i + 1) - 1;
-            tmp = buf.substr(start_idx, end_idx + 1);
-            send(cs, tmp.c_str(), tmp.length(), 0);
-        }
-
-        tmp = buf.substr(end_idx + 1, end_idx + 1 + remainder + 1);
-        send(cs, tmp.c_str(), tmp.length(), 0);
-    }
-    else
-        send(cs, buf.c_str(), buf.length(), 0);
+    send(cs, buf.c_str(), buf.length(), 0);
 
     recvbuf.resize(1);
     recv(cs, recvbuf.data(), sizeof(recvbuf), 0);
