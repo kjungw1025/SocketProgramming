@@ -17,6 +17,7 @@ Target: x86_64-linux-gnu
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04)
+<hr/>
 
 ## Problem1
 ```shell
@@ -29,6 +30,7 @@ gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04)
 - recvbuf 크기가 맨 처음에 보낸 문자열의 길이와 같아진다면 recv 중지함
 - 실행 결과
 <img src="https://user-images.githubusercontent.com/120318020/236194509-4bb6bacb-24ae-452b-9f1b-2ef84a9c37cb.PNG">
+<hr/>
 
 ## Problem2-2
 ``` shell
@@ -45,6 +47,7 @@ gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04)
 ```
 - 실행 결과
 <img src="https://user-images.githubusercontent.com/120318020/236652797-aa346b60-6a4b-40eb-9c24-273b636293f8.PNG">
+<hr/>
 
 ## Problem3
 ``` shell
@@ -60,5 +63,35 @@ Client에서 아래와 같은 입력을 했을 때, 서버에서 결과 값을 r
 ```
 - createdb.cpp를 통해 C++에서 Mysql에 접속하고 problem3라는 이름의 데이터베이스 생성 및 DNS라는 이름의 테이블 생성
 - 생성한 DNS 테이블에 초기 세팅 값들을 INSERT문을 통해 넣어줌
-<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/bdf6b231-4a22-4bcd-a71e-ac1638e1ac2f">
-<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/f97f4bdc-a06f-478b-aaf9-85a48ba00eb9">
+<div>
+	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/bdf6b231-4a22-4bcd-a71e-ac1638e1ac2f">
+	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/f97f4bdc-a06f-478b-aaf9-85a48ba00eb9">
+</div>
+<div>
+	<br/>
+	<p>Server쪽 IP</p>
+	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/143cfad5-2121-4589-8bca-907d9640458a">
+</div>
+<div>
+	<br/>
+	<p>Client쪽 IP</p>
+	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/46add958-5daa-4e37-bb17-86064e7e85fc">
+</div>
+<div>
+	<br/>
+	<p>Server 실행</p>
+	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/a6ebe84d-8d54-4487-b1da-10860ea2535a">
+</div>
+<div>
+	<br/>
+	<p>Client 실행 (빨간색 박스 : 입력 / 노란색 박스 : 결과)</p>
+	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/fd977079-a9ec-46dd-bf5e-2f7e8d6eebab">
+	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/417aaa28-b143-46fc-acb3-679e5e2732d9">
+</div>
+<div>
+	<br/>
+	<p>Client 실행 후, 업데이트 된 Server쪽 DB 확인</p>
+	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/e260b06f-7082-45e6-9a65-6626dba875f5">
+	<p>Client가 입력한 "W: www.daum.net 678.901.234.567"이 Server DB에 잘 적용된 것을 확인할 수 있다.</p>
+</div>
+
