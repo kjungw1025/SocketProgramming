@@ -96,4 +96,4 @@ Client에서 아래와 같은 입력을 했을 때, 서버에서 결과 값을 r
 <div/>
 
 ### 실행 영상
-[![Video Label](https://github.com/kjungw1025/SocketProgramming/assets/120318020/a40fee04-cf13-4535-9ca1-e9ba63b6c3df)](https://www.youtube.com/watch?v=K9PUi6IJ_IY)
+https://www.youtube.com/watch?v=K9PUi6IJ_IY
