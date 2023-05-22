@@ -32,6 +32,28 @@ gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04)
 <img src="https://user-images.githubusercontent.com/120318020/236194509-4bb6bacb-24ae-452b-9f1b-2ef84a9c37cb.PNG">
 <hr/>
 
+## Problem2-1
+```shell
+문제 : Client가 읽고자 하는 파일을 입력하면, Server에서 해당 파일을 찾아 파일 내용을 Client에 보내주고
+       Client가 쓰고자 하는 파일의 이름과 내용을 입력하면, Server에 해당 파일을 생성
+       
+입력 양식
+"R: filename" -> 파일이름에 대한 내용을 읽어냄
+"W: filename" -> client가 보낸 내용을 해당 파일이름에 쓰라는 의미
+```
+- Lyrics.txt : 파일 읽기를 위한 예시 파일
+<div>
+	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/8b74c63f-64cf-4c5e-8290-2fdffa414975">
+</div>
+<div>
+	<p>실행 결과</p>
+	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/542a5620-369b-4d6a-a553-1a40208864c6">
+	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/98e4d74b-5eed-47ea-8bdb-4ebb2008f04b">
+	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/36732ec8-e43f-4d44-b9d8-d98da9f83834">
+</div>
+
+<hr/>
+
 ## Problem2-2
 ``` shell
 문제 : Client가 보내는 계산식을 Server에서 계산하여 Client 화면에 출력
