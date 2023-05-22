@@ -41,6 +41,7 @@ gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04)
 "R: filename" -> 파일이름에 대한 내용을 읽어냄
 "W: filename" -> client가 보낸 내용을 해당 파일이름에 쓰라는 의미
 ```
+- 서버측에서 vector&lt;string&gt; 형태의 데이터를 클라이언트로 전송하기 위해서 데이터 직렬화(serialize)를 하여 네트워크로 전송하고, 클라이언트측에서는 받은 데이터를 역직렬화(deserialize)하여 vector&lt;string&gt; 형태로 복원하는 방식으로 작성함
 - Lyrics.txt : 파일 읽기를 위한 예시 파일
 <div>
 	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/77d38f6d-7378-459b-bd75-69e94fdaba48">
