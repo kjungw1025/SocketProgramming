@@ -43,13 +43,13 @@ gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04)
 ```
 - Lyrics.txt : 파일 읽기를 위한 예시 파일
 <div>
-	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/8b74c63f-64cf-4c5e-8290-2fdffa414975">
+	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/77d38f6d-7378-459b-bd75-69e94fdaba48">
 </div>
 <div>
 	<p>실행 결과</p>
-	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/542a5620-369b-4d6a-a553-1a40208864c6">
-	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/98e4d74b-5eed-47ea-8bdb-4ebb2008f04b">
-	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/36732ec8-e43f-4d44-b9d8-d98da9f83834">
+	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/4bb23799-0fdf-449b-8ecb-2ad1392d20d7">
+	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/03b889e2-78ab-4ea2-a00d-b3cf1dfbe6f3">
+	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/e377aa3f-9670-436f-a1b1-82623963c6c7">
 </div>
 
 <hr/>
