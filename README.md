@@ -46,7 +46,7 @@ gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04)
 	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/77d38f6d-7378-459b-bd75-69e94fdaba48">
 </div>
 <div>
-	<p>실행 결과</p>
+	<p>실행 결과 (빨간색 박스 : 입력 / 노란색 박스 : 결과)</p>
 	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/4bb23799-0fdf-449b-8ecb-2ad1392d20d7">
 	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/03b889e2-78ab-4ea2-a00d-b3cf1dfbe6f3">
 	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/e377aa3f-9670-436f-a1b1-82623963c6c7">
@@ -86,34 +86,34 @@ Client에서 아래와 같은 입력을 했을 때, 서버에서 결과 값을 r
 - createdb.cpp를 통해 C++에서 Mysql에 접속하고 problem3라는 이름의 데이터베이스 생성 및 DNS라는 이름의 테이블 생성
 - 생성한 DNS 테이블에 초기 세팅 값들을 INSERT문을 통해 넣어줌
 <div>
-	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/bdf6b231-4a22-4bcd-a71e-ac1638e1ac2f">
-	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/f97f4bdc-a06f-478b-aaf9-85a48ba00eb9">
+	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/566bc05c-859d-4038-80d1-9997bf39e92e">
+	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/39d297b6-e06f-4ccc-8767-377b2407f1a3">
 <div/>
 <div>
 	<br/>
 	<p>Server쪽 IP</p>
-	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/143cfad5-2121-4589-8bca-907d9640458a">
+	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/7c374cb7-3268-417c-a892-3d09e4a3d412">
 <div/>
 <div>
 	<br/>
 	<p>Client쪽 IP</p>
-	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/46add958-5daa-4e37-bb17-86064e7e85fc">
+	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/cbff1dca-d4b9-433a-a7fb-d8a2c4150aa4">
 <div/>
 <div>
 	<br/>
 	<p>Server 실행</p>
-	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/a6ebe84d-8d54-4487-b1da-10860ea2535a">
+	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/b3ff7f4f-5cc3-4893-b997-e506b7dc68ca">
 <div/>
 <div>
 	<br/>
 	<p>Client 실행 (빨간색 박스 : 입력 / 노란색 박스 : 결과)</p>
-	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/fd977079-a9ec-46dd-bf5e-2f7e8d6eebab">
-	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/417aaa28-b143-46fc-acb3-679e5e2732d9">
+	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/b3a95fce-aca7-4208-a693-ce8087ac5582">
+	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/518f3000-d967-4673-81a3-8253922cec91">
 <div/>
 <div>
 	<br/>
 	<p>Client 실행 후, 업데이트 된 Server쪽 DB 확인</p>
-	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/e260b06f-7082-45e6-9a65-6626dba875f5">
+	<img src="https://github.com/kjungw1025/SocketProgramming/assets/120318020/19b71ee1-092d-49e0-8dcf-1d0c1ca24cd2">
 	<p>Client가 입력한 "W: www.daum.net 678.901.234.567"이 Server DB에 잘 적용된 것을 확인할 수 있다.</p>
 <div/>
 
